@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Roboto:400,700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css');
+
+/* Global styles */
+
+body {
+  font-family: "EB Garamond", serif;
+  background-color: #f7f7f7;
+}
+.navbar-brand {
+  color: white;
+  font-family: 'Brush Script MT', 'Brush Script Std', 'cursive';
+  font-size: 1.4rem;
+  font-weight: 450;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 700;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Header styles */
+
+.header-logo {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Advisor and Convener section styles */
+
+.card {
+  border: none;
+}
+
+.card-body {
+  padding: 0.5rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+/* Volunteers section styles */
+
+.card-volunteer {
+  border: none;
+  margin-bottom: 1.5rem;
+}
+
+.card-volunteer:last-child {
+  margin-bottom: 0;
+}
+
+.card-volunteer .card-body {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.card-volunteer .card-text {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+.card-volunteer .card-text span {
+  font-weight: bold;
+}
+
+/* Footer styles */
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.footer1{
+  background-color: #d1a03e;
+  color: #d1a03e;
+}
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links li a {
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-links li a:hover {
+  color: #e0b049;
+  text-decoration: none;
+}
+
+.newsletter-form {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-form input[type="email"] {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 300px;
+  margin-right: 50px;
+}
+
+.newsletter-form button {
+  background-color: #e0b049;
+  border-color: #e0b049;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 10px 30px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.newsletter-form button:hover {
+  background-color: #d1a03e;
+  border-color: #d1a03e;
+}
+
+/* Toggle styles */
+
+.toggle-header {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.toggle-body {
+  display: none;
+}
+
+.toggle-body.show {
+  display: block;
+}
+
+.toggle-body p {
+  margin-top: 0.5rem;
+}
+
+
+.btn-primary {
+  background-color: #fc9904;
+  border-color: #fc9904;
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  background-color: #d1a03e;
+  border-color: #d1a03e;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}

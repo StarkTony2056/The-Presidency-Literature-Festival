@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Roboto:400,700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css');
+
+body {
+  font-family: "EB Garamond", serif;
+  background-color: #f7f7f7;
+}
+.navbar-brand {
+  color: white;
+  font-family: 'Brush Script MT', 'Brush Script Std', 'cursive';
+  font-size: 1.4rem;
+  font-weight: 450;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 700;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.jumbotron {
+  background-image: url(https://www.presiuniv.ac.in/web/img/un2.jpg);
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.btn-primary {
+  background-color: #fc9904;
+  border-color: #fc9904;
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  background-color: #d1a03e;
+  border-color: #d1a03e;
+}
+
+.section-header {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.bg-dark {
+  background-color: #2c3e50 !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.list-unstyled li a {
+  color: #fff;
+  font-weight: 700;
+}
+
+.list-unstyled li a:hover {
+  color: #e0b049;
+  text-decoration: none;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.footer1{
+  background-color: #d1a03e;
+  color: #d1a03e;
+}
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links li a {
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-links li a:hover {
+  color: #e0b049;
+  text-decoration: none;
+}
+
+.newsletter-form {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-form input[type="email"] {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 300px;
+  margin-right: 50px;
+}
+
+.newsletter-form button {
+  background-color: #e0b049;
+  border-color: #e0b049;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 10px 30px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.newsletter-form button:hover {
+  background-color: #d1a03e;
+  border-color: #d1a03e;
+}
+
+#scrollButton {
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #fc9904;
+  color: #F5DEB3;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  font-family: "EB Garamond", serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#scrollButton:hover {
+  background-color: #F5DEB3;
+  color: #f8d300cb;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100vw;
+  position: fixed;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: fixed;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left:0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: fixed;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Sponsors section */
+.sponsors-section {
+  padding: 60px 0;
+}
+
+.sponsors-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.sponsor-item {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sponsor-item img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px;
+}
+
+.sponsor-item .sponsor-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.sponsor-item .sponsor-quality {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Register section */
+.register-section {
+  padding: 60px 0;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.register-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.register-section p {
+  font-size: 28px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.register-btn {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 12px 30px;
+  border: 0;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ff4500;
+  text-align: center;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: #e44000;
+}
