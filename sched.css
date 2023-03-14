@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Roboto:400,700&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css');
 
-/* Set body background color */
+@font-face {
+  font-family: 'Bleeding Cowboys';
+  src: url('Bleeding_Cowboys.ttf') format('truetype');
+}
+
 body {
   font-family: "EB Garamond", serif;
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
 }
-
-/* Set section background color */
-section {
-  background-color: #fff;
-}
-
 .navbar-brand {
   color: white;
   font-family: 'Brush Script MT', 'Brush Script Std', 'cursive';

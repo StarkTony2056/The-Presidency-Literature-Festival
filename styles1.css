@@ -3,6 +3,11 @@
 
 /* Global styles */
 
+@font-face {
+  font-family: 'Bleeding Cowboys';
+  src: url('Bleeding_Cowboys.ttf') format('truetype');
+}
+
 body {
   font-family: "EB Garamond", serif;
   background-color: #f7f7f7;
@@ -163,37 +168,6 @@ a:hover {
 }
 
 .newsletter-form button:hover {
-  background-color: #d1a03e;
-  border-color: #d1a03e;
-}
-
-/* Toggle styles */
-
-.toggle-header {
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.toggle-body {
-  display: none;
-}
-
-.toggle-body.show {
-  display: block;
-}
-
-.toggle-body p {
-  margin-top: 0.5rem;
-}
-
-
-.btn-primary {
-  background-color: #fc9904;
-  border-color: #fc9904;
-  font-weight: 700;
-}
-
-.btn-primary:hover {
   background-color: #d1a03e;
   border-color: #d1a03e;
 }
