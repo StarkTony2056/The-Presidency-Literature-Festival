@@ -48,17 +48,27 @@ section {
 }
 
 .card-img-top {
+  align-items: center;
   border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: auto;
 }
 
 .card-body {
   text-align: left;
 }
 
+.card-head{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
 .card-title {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 10px;
+  color: #fcce04;
 }
 
 .card-subtitle {
@@ -72,6 +82,31 @@ section {
   margin-bottom: 20px;
 }
 
+.card-text-speakers {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color:#fcce04;
+}
+
+.circle {
+  align-items: center;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.gap-2 {
+  gap: 1.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0rem;
+}
+
+.name {
+  align-items: center;
+}
 /* Set speaker picture width and height */
 .speaker-picture {
   width: 100%;
