@@ -177,7 +177,9 @@ section {
 }
 
 /* Set button margin */
-
+.button {
+  align-items: center;
+}
 .btn-primary {
   background-color: #fc9904;
   border-color: #fc9904;
