@@ -217,34 +217,26 @@ section {
   text-decoration: none;
 }
 
-.newsletter-form {
-  margin-top: 30px;
+#scrollButton {
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.newsletter-form input[type="email"] {
-  font-size: 1.2rem;
-  padding: 10px 20px;
-  border-radius: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 16px;
   border: none;
   outline: none;
-  width: 300px;
-  margin-right: 50px;
+  background-color: #fcba04;
+  color: #F5DEB3;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  font-family: "EB Garamond", serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.newsletter-form button {
-  background-color: #e0b049;
-  border-color: #e0b049;
-  color: #fff;
-  font-weight: 700;
-  border-radius: 20px;
-  padding: 10px 30px;
-  transition: background-color 0.2s ease-in-out;
+#scrollButton:hover {
+  background-color: #F5DEB3;
+  color: #f8d300cb;
 }
 
-.newsletter-form button:hover {
-  background-color: #d1a03e;
-  border-color: #d1a03e;
-}
+* {box-sizing:border-box}
